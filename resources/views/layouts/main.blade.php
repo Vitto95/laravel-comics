@@ -16,6 +16,8 @@
 
   @yield('content')
 
+  @include('partials.banner')
+
   @include('partials.footer')
   
 

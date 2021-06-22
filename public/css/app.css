@@ -46,6 +46,41 @@ header .header-bottom {
   background-repeat: no-repeat;
 }
 
+main {
+  height: 600px;
+  background-color: #1c1c1c;
+  padding: 30px 0;
+}
+
+.comics {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.comics-item img {
+  height: 200px;
+}
+
+.banner {
+  height: 100px;
+  background-color: #0282f9;
+}
+.banner .container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.item {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+.item img {
+  height: 50%;
+}
+
 /* GENERAL */
 * {
   margin: 0;

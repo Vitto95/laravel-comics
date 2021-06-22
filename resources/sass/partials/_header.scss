@@ -1,0 +1,41 @@
+header{
+  height: 100px;
+  .header-top{
+    height: 20px;
+    background-color: #0282f9;
+  }
+  .header-bottom{
+    display: flex;
+    height: 90px;
+  }
+}
+
+.header-top .container{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header-bottom .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-bottom .logo-wrapper{
+  display: flex;
+  align-items: center;
+  margin-right: 2rem;
+  img{
+    height: 70px;
+  }
+}
+
+.header-bottom ul{
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  li{
+    margin-right: 30px;
+  }
+}
+
